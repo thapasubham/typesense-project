@@ -1,0 +1,26 @@
+services:
+  typesense:
+    image: typesense/typesense:27.1
+    container_name: typesense-container
+    restart: unless-stopped
+    ports:
+      - "8108:8108"
+    volumes:
+      - typesense-data:/data
+    command: "--data-dir /data --api-key=xyz --enable-cors"
+  postgres:
+    image: postgres:16-alpine
+    container_name: typesense
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: typesense-password
+      POSTGRES_DB: typesense_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+  typesense-data:
