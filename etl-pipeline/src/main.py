@@ -1,5 +1,12 @@
 from etl.extract import extract
-from utils.db import init_db
+from etl.load import load
+from etl.transform import transform
 
-extract()
-init_db()
+
+def process():
+    extracted = extract()
+    transformed = transform(extracted)
+    load(transformed)
+
+
+process()

@@ -35,7 +35,4 @@ def check_connection():
 
 
 def init_db():
-    with open("./dataset/movies.csv", "r", newline="") as f:
-        csv_data = csv.reader(f)
-        header = next(csv_data)
-        print(header)
+    pass
