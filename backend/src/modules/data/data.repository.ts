@@ -5,17 +5,15 @@ export class DataRepository {
   async GetData(searchParams: SearchParam) {
     const client = typesenseClient.GetClient();
     let searchParameters = {
-      q: "experyment",
-      query_by: "title",
-      facet_by: "publication_year",
-      sort_by: "average_rating:desc",
+      q: searchParams.q,
+      query_by: searchParams.query_by || "title,genres,tags",
+      sort_by: searchParams.sort_by || "ratings_count:desc",
     };
 
     const results = await client
-      .collections("books")
+      .collections("movies")
       .documents()
-      .search(searchParams);
-
+      .search(searchParameters);
     return results;
   }
 }

@@ -1,0 +1,186 @@
+{
+  "facet_counts": [],
+  "found": 5,
+  "hits": [
+    {
+      "document": {
+        "authors": ["Toni Morrison"],
+        "average_rating": 3.7,
+        "id": "6460",
+        "image_url": "https://images.gr-assets.com/books/1463008449m/23602473.jpg",
+        "publication_year": 2014,
+        "ratings_count": 12228,
+        "title": "God Help the Child"
+      },
+      "highlight": {
+        "title": {
+          "matched_tokens": ["Help"],
+          "snippet": "God \u003Cmark\u003EHelp\u003C/mark\u003E the Child"
+        }
+      },
+      "highlights": [
+        {
+          "field": "title",
+          "matched_tokens": ["Help"],
+          "snippet": "God \u003Cmark\u003EHelp\u003C/mark\u003E the Child"
+        }
+      ],
+      "text_match": 578730123365187700,
+      "text_match_info": {
+        "best_field_score": "1108091338752",
+        "best_field_weight": 15,
+        "fields_matched": 1,
+        "num_tokens_dropped": 0,
+        "score": "578730123365187705",
+        "tokens_matched": 1,
+        "typo_prefix_score": 0
+      }
+    },
+    {
+      "document": {
+        "authors": ["Margot Lee Shetterly"],
+        "average_rating": 3.92,
+        "id": "7984",
+        "image_url": "https://images.gr-assets.com/books/1481844518m/25953369.jpg",
+        "publication_year": 2016,
+        "ratings_count": 19947,
+        "title": "Hidden Figures: The American Dream and the Untold Story of the Black Women Mathematicians Who Helped Win the Space Race"
+      },
+      "highlight": {
+        "title": {
+          "matched_tokens": ["Help"],
+          "snippet": "Hidden Figures: The American Dream and the Untold Story of the Black Women Mathematicians Who \u003Cmark\u003EHelp\u003C/mark\u003Eed Win the Space Race"
+        }
+      },
+      "highlights": [
+        {
+          "field": "title",
+          "matched_tokens": ["Help"],
+          "snippet": "Hidden Figures: The American Dream and the Untold Story of the Black Women Mathematicians Who \u003Cmark\u003EHelp\u003C/mark\u003Eed Win the Space Race"
+        }
+      ],
+      "text_match": 578730089005449300,
+      "text_match_info": {
+        "best_field_score": "1108074561536",
+        "best_field_weight": 15,
+        "fields_matched": 1,
+        "num_tokens_dropped": 0,
+        "score": "578730089005449337",
+        "tokens_matched": 1,
+        "typo_prefix_score": 1
+      }
+    },
+    {
+      "document": {
+        "authors": ["Amanda Palmer"],
+        "average_rating": 3.97,
+        "id": "4225",
+        "image_url": "https://images.gr-assets.com/books/1408547261m/20980987.jpg",
+        "publication_year": 2014,
+        "ratings_count": 20075,
+        "title": "The Art of Asking; or, How I Learned to Stop Worrying and Let People Help"
+      },
+      "highlight": {
+        "title": {
+          "matched_tokens": ["Help"],
+          "snippet": "The Art of Asking; or, How I Learned to Stop Worrying and Let People \u003Cmark\u003EHelp\u003C/mark\u003E"
+        }
+      },
+      "highlights": [
+        {
+          "field": "title",
+          "matched_tokens": ["Help"],
+          "snippet": "The Art of Asking; or, How I Learned to Stop Worrying and Let People \u003Cmark\u003EHelp\u003C/mark\u003E"
+        }
+      ],
+      "text_match": 578730123365187700,
+      "text_match_info": {
+        "best_field_score": "1108091338752",
+        "best_field_weight": 15,
+        "fields_matched": 1,
+        "num_tokens_dropped": 0,
+        "score": "578730123365187705",
+        "tokens_matched": 1,
+        "typo_prefix_score": 0
+      }
+    },
+    {
+      "document": {
+        "authors": ["Megan McCafferty"],
+        "average_rating": 4.08,
+        "id": "5434",
+        "image_url": "https://images.gr-assets.com/books/1388707744m/199687.jpg",
+        "publication_year": 2003,
+        "ratings_count": 23180,
+        "title": "Second Helpings (Jessica Darling, #2)"
+      },
+      "highlight": {
+        "title": {
+          "matched_tokens": ["Help"],
+          "snippet": "Second \u003Cmark\u003EHelp\u003C/mark\u003Eings (Jessica Darling, #2)"
+        }
+      },
+      "highlights": [
+        {
+          "field": "title",
+          "matched_tokens": ["Help"],
+          "snippet": "Second \u003Cmark\u003EHelp\u003C/mark\u003Eings (Jessica Darling, #2)"
+        }
+      ],
+      "text_match": 578730089005449300,
+      "text_match_info": {
+        "best_field_score": "1108074561536",
+        "best_field_weight": 15,
+        "fields_matched": 1,
+        "num_tokens_dropped": 0,
+        "score": "578730089005449337",
+        "tokens_matched": 1,
+        "typo_prefix_score": 1
+      }
+    },
+    {
+      "document": {
+        "authors": ["Kathryn Stockett"],
+        "average_rating": 4.45,
+        "id": "31",
+        "image_url": "https://images.gr-assets.com/books/1346100365m/4667024.jpg",
+        "publication_year": 2009,
+        "ratings_count": 1531753,
+        "title": "The Help"
+      },
+      "highlight": {
+        "title": {
+          "matched_tokens": ["Help"],
+          "snippet": "The \u003Cmark\u003EHelp\u003C/mark\u003E"
+        }
+      },
+      "highlights": [
+        {
+          "field": "title",
+          "matched_tokens": ["Help"],
+          "snippet": "The \u003Cmark\u003EHelp\u003C/mark\u003E"
+        }
+      ],
+      "text_match": 578730123365187700,
+      "text_match_info": {
+        "best_field_score": "1108091338752",
+        "best_field_weight": 15,
+        "fields_matched": 1,
+        "num_tokens_dropped": 0,
+        "score": "578730123365187705",
+        "tokens_matched": 1,
+        "typo_prefix_score": 0
+      }
+    }
+  ],
+  "out_of": 9979,
+  "page": 1,
+  "request_params": {
+    "collection_name": "books",
+    "first_q": "help",
+    "per_page": 10,
+    "q": "help"
+  },
+  "search_cutoff": false,
+  "search_time_ms": 1
+}

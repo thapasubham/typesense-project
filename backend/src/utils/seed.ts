@@ -4,16 +4,16 @@ import { createCollection } from "../modules/data/data.types.js";
 
 async function seedData() {
   try {
-    const booksInJsonl = await fs.readFile("./temp/books.jsonl", "utf-8");
+    const moviesInJsonl = await fs.readFile("./temp/books.jsonl", "utf-8");
 
     const client = typesenseClient.GetClient();
 
     console.log("Starting data import...");
 
     const returnData = await client
-      .collections("books")
+      .collections("movies")
       .documents()
-      .import(booksInJsonl);
+      .import(moviesInJsonl, { action: "upsert" });
 
     console.log("Import completed successfully!");
     console.log(returnData);
