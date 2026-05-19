@@ -1,3 +1,4 @@
+import { resourceUsage } from "process";
 import { typesenseClient } from "../../client/typesense.js";
 import { SearchParam } from "../../types/types.js";
 
@@ -14,6 +15,10 @@ export class DataRepository {
       .collections("movies")
       .documents()
       .search(searchParameters);
+   const transformedResults = results.hits?.map(hit=>({
+    ...hit.document,
+
+   }))
     return results;
   }
 }
