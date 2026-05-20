@@ -3,4 +3,5 @@ export interface SearchParam {
   query_by: string;
   facet_by?: string;
   sort_by?: string;
+  filter_by?: string;
 }

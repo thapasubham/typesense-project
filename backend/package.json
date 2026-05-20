@@ -9,6 +9,7 @@
   "scripts": {
     "seed": "tsx src/utils/seed.ts",
     "dev": "tsx watch src/index.ts",
+    "upsert": "tsx  src/modules/data/upsert.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

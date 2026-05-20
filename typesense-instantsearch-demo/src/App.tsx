@@ -28,7 +28,7 @@ const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
   },
 
   additionalSearchParameters: {
-    query_by: 'title,authors',
+    query_by: 'title',
   },
 });
 const searchClient = typesenseInstantsearchAdapter.searchClient;
@@ -52,7 +52,7 @@ export function App() {
       <div className="container">
         <InstantSearch
           searchClient={searchClient}
-          indexName="books"
+          indexName="movies"
           future={future}
         >
           <Configure hitsPerPage={8} />
@@ -64,7 +64,7 @@ export function App() {
             </div>
 
             <div className="search-panel__results">
-              <SearchBox placeholder="Search books…" className="searchbox" />
+              <SearchBox placeholder="Search movies…" className="searchbox" />
               <Hits hitComponent={Hit} />
 
               <div className="pagination">
